@@ -1,0 +1,23 @@
+[{
+  "modid": "lavavacuum",
+  "name": "Lava Vacuum - A lava cacuum cleaner",
+  "description": "These modification adds a new item to absorb lava.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://minecraft.valgard-lp.de/mods/lavavacuum/",
+  "updateUrl": "",
+  "authorList": [
+    "Valgard Trontheim (a.k.a Sven Pöche)"
+  ],
+  "credits": "Thanks to _Bedrock_Miner_ and greyminecraftcoder for there tutorials.",
+  "logoFile": "logo.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "requiredMods": [
+    "Forge"
+  ],
+  "dependencies": [
+  ],
+  "useDependencyInformation": "true"
+}]
