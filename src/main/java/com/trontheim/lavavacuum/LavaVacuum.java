@@ -22,7 +22,7 @@ public class LavaVacuum {
 
   public static final String MODID = "lavavacuum";
   public static final String NAME = "Lava Vacuum";
-  public static final String VERSION = "0.0.2-alpha";
+  public static final String VERSION = "0.0.3-alpha";
   public static final String MCVERSION = "[1.7.10]";
 
   private static final Logger logger = LogManager.getLogger(MODID);
