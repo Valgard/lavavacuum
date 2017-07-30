@@ -3,21 +3,20 @@ package com.trontheim.lavavacuum.init;
 import com.trontheim.lavavacuum.LavaVacuum;
 import com.trontheim.lavavacuum.item.ItemLavaVacuum;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.launchwrapper.Launch;
+import net.minecraft.item.ItemStack;
 
 public class LVItems {
 
   public static Item lavaVacuum;
 
-  private static final boolean developmentEnvironment = (Boolean) Launch.blackboard.get("fml.deobfuscatedEnvironment");
-
   public static void registerItems() {
     lavaVacuum = GameRegistry.registerItem(new ItemLavaVacuum(), "lavaVacuum", LavaVacuum.MODID);
   }
 
-  public static boolean isDevelopmentEnvironment() {
-    return developmentEnvironment;
+  public static void registerRecipes() {
+    GameRegistry.addRecipe(new ItemStack(LVItems.lavaVacuum), " b ", "i i", "iii", 'b', Items.bucket, 'i', Items.iron_ingot);
   }
 
 }

@@ -9,6 +9,7 @@ abstract public class CommonProxy {
 
   public void preInit(FMLPreInitializationEvent event) {
     LVItems.registerItems();
+    LVItems.registerRecipes();
   }
 
   public void init(FMLInitializationEvent event) {
